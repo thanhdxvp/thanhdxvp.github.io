@@ -26,6 +26,9 @@ td.menu2{
     color: rgb(255, 115, 0);
     width: 10%;
 }
+hr#scustom{
+    size: 10px;
+}
 
 table.menu {
     width: 100%;
@@ -46,4 +49,5 @@ td.day3bang{
 
 img.day3bang{
     text-align: center;
+    width: 15%;
 }
