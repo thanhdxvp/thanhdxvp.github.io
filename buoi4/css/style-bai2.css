@@ -1,0 +1,21 @@
+* {
+    margin: 0 auto;
+}
+
+table {
+    border-spacing: 20px;
+}
+
+em.text {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(54, 168, 168);
+}

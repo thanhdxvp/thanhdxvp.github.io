@@ -1,0 +1,28 @@
+table {
+    width: auto;
+    text-align: center;
+    border-spacing: 20px;
+}
+td {
+    text-align: center;
+    border: 1px solid;
+    border-color: black ;
+}
+
+h3.price {
+    color: red;
+}
+
+h3.name {
+    color: orange;
+}
+
+a:hover h3{
+    border-color: orange;
+    text-decoration: underline;
+    color: blue ;
+}
+
+a {
+    text-decoration: none;
+}

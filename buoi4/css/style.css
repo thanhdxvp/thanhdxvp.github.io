@@ -1,0 +1,39 @@
+h1 {
+    color: aqua;
+}
+
+.title-style {
+    /* color: black;
+    background-color: aquamarine;
+    background-image: url('../../buoi1/doraemon-4553920_1280.webp');
+    height: 100px;
+    background-repeat: no-repeat; */
+}
+
+#first-element {
+    color: blue;
+    background-image: url(../../buoi1/doraemon-4553920_1280.webp);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-family: 'Times New Roman';
+    font-style: oblique;
+}
+
+body {
+    /* background-image: url(../../buoi1/doraemon-4553920_1280.webp);
+    background-attachment: fixed; */
+}
+
+p{
+    font-size: 50px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+}
+span{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}

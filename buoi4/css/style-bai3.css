@@ -1,0 +1,49 @@
+table {
+    table-layout: fixed;
+    margin: unset;
+    background-color: white;
+}
+
+body {
+    background-image: url(../images/tuyet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img.cover{
+    width: 100%;
+}
+
+div#container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+td.menu1 {  
+    text-align: left;
+    width: 50%;
+}
+td.menu2{
+    color: rgb(255, 115, 0);
+    width: 10%;
+}
+
+table.menu {
+    width: 100%;
+    background-image: url(../images/line_bar.gif);
+    background-size: cover;
+}
+
+table.border{
+    border: 1px solid;
+    width: 15%;
+}
+
+td.day3bang{
+    width: 100%;
+    background-image: url(../images/menu_bar.gif);
+    background-size: cover;
+}
+
+img.day3bang{
+    text-align: center;
+}
