@@ -1,0 +1,58 @@
+h1 {
+    color: blue;
+}
+
+h1:hover {
+    color: red;
+}
+
+h1:hover~p {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 50px;
+    width: 32%;
+    float: left;
+}
+
+#border-solid {
+    border: 5px solid red;
+}
+
+#border-dotted {
+    border: 5px dotted red;
+}
+
+#border-dashed {
+    border: 5px dashed red;
+}
+
+#border-double {
+    border: 5px double red;
+}
+
+#border-groove {
+    border: 5px groove red;
+}
+
+#border-ridge {
+    border: 5px ridge red;
+}
+
+#border-inset {
+    border: 5px inset red;
+}
+
+#border-outset {
+    border: 5px outset red;
+}
