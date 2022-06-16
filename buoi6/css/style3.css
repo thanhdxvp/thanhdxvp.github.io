@@ -1,0 +1,174 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#container {
+    width: 1200px;
+    height: fit-content;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+}
+
+#logo {
+    font-size: 50px;
+    float: left;
+    width: fit-content;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+#header-right {
+    width: fit-content;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+#sign-in {
+    position: absolute;
+    width: 110px;
+    height: 32px;
+    right: 20px;
+    top: 16px;
+    font-size: 20px;
+}
+
+#sign-up {
+    position: absolute;
+    width: 110px;
+    height: 32px;
+    font-size: 20px;
+    top: 20px;
+    right: 150px;
+    text-align: center;
+}
+
+#about {
+    position: absolute;
+    width: 110px;
+    height: 32px;
+    font-size: 20px;
+    top: 20px;
+    right: 270px;
+    text-align: center;
+}
+
+#main{
+    height: 650px;
+}
+
+#sidebar {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+#menu{
+    position: absolute;
+    list-style: none;
+    top: 30px;
+    left: 50px;
+}
+
+#menu>li{
+    height: 40px;
+    font-size: 20px;
+    
+}
+
+#mainContent {
+    width: 80%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+#images1{
+    position: absolute;
+    width: 25%;
+    height: 25%;
+}
+.image-div{
+    font-size: xx-large;
+    width: 88%;
+    float: left;
+    background-color: aliceblue;
+}
+
+.text{
+    position: absolute;
+    bottom: -6px ;
+    background-color: gray;
+    width: 210px;
+    color: white;
+    opacity: 0.6;
+}
+
+
+#images2{
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    left: 275px;
+}
+
+#images3{
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    left: 550px;
+}
+
+#images4{
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    top: 200px;
+}
+
+#images5{
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    left: 275px;
+    top: 200px;
+}
+
+#images6{
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    top: 200px;
+    left: 550px;
+}
+
+#images7{
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    top: 400px;
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+#menu-footer{
+    position: relative;
+    list-style: none;
+    top: 80px;
+}
+
+#menu-footer>li{
+    display: inline-block;
+    margin-left: 50px;
+}
