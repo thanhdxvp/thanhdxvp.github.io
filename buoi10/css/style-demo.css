@@ -1,0 +1,36 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+#container {
+    height: 422px;
+    width: 800px;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+#logoRight {
+    top: 220px;
+    z-index: 1;
+    right: 0;
+    position: absolute;
+    align-items: center;
+    background-color: gray;
+}
+
+#logoLeft {
+    background-color: gray;
+    top: 220px;
+    z-index: 1;
+    left: 0;
+    font-size: 20px;
+    align-items: center;
+    position: absolute;
+}

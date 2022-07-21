@@ -1,0 +1,27 @@
+header {
+    height: 200px;
+    border: 1px solid black;
+}
+
+nav {
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+}
+
+section {
+    width: 69%;
+    float: right;
+    height: 500px;
+    border: 1px solid black;
+}
+
+aside {
+    width: 30%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+footer {
+    clear: both;
+}

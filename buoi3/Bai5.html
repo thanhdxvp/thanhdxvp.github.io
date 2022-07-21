@@ -6,6 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bai 5</title>
+    <style>
+        .error {
+            display: none;
+            color: red;
+        }
+
+        .error_active {
+            color: blue;
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,7 +36,9 @@
                                 First Name:
                             </td>
                             <td width="70%">
-                                <input type="text" name="firstname">
+                                <input type="text" name="firstname" id="firstname">
+                                <br>
+                                <span class="error" id="firstname-error"></span>
                             </td>
                         </tr>
 
@@ -34,7 +47,9 @@
                                 Last Name:
                             </td>
                             <td>
-                                <input type="text" name="lastname">
+                                <input type="text" name="lastname" id="lastname">
+                                <br>
+                                <span class="error" id="lastname-error"></span>
                             </td>
                         </tr>
 
@@ -43,8 +58,10 @@
                                 Gender:
                             </td>
                             <td>
-                                <input type="radio" name="gender" value="1" checked> Nam <input type="radio"
-                                    name="gender" value="2"> Nữ
+                                <input type="radio" name="gender" value="1" class="gender"> Nam <input type="radio"
+                                    name="gender" class="gender" value="2"> Nữ
+                                <br>
+                                <span class="error" id="gender-error"></span>
                             </td>
                         </tr>
 
@@ -53,7 +70,9 @@
                                 Password:
                             </td>
                             <td>
-                                <input type="password" name="password">
+                                <input type="password" name="password" id="password">
+                                <br>
+                                <span class="error" id="pass-error"></span>
                             </td>
                         </tr>
 
@@ -62,13 +81,15 @@
                                 Calender:
                             </td>
                             <td>
-                                <input type="checkbox" name="calender" value="2"> Thứ 2
-                                <input type="checkbox" name="calender" value="3"> Thứ 3
-                                <input type="checkbox" name="calender" value="4"> Thứ 4
-                                <input type="checkbox" name="calender" value="5"> Thứ 5
-                                <input type="checkbox" name="calender" value="6"> Thứ 6
-                                <input type="checkbox" name="calender" value="7"> Thứ 7
-                                <input type="checkbox" name="calender" value="8"> Chủ nhật
+                                <input type="checkbox" name="calender" class="calender" value="2"> Thứ 2
+                                <input type="checkbox" name="calender" class="calender" value="3"> Thứ 3
+                                <input type="checkbox" name="calender" class="calender" value="4"> Thứ 4
+                                <input type="checkbox" name="calender" class="calender" value="5"> Thứ 5
+                                <input type="checkbox" name="calender" class="calender" value="6"> Thứ 6
+                                <input type="checkbox" name="calender" class="calender" value="7"> Thứ 7
+                                <input type="checkbox" name="calender" class="calender" value="8"> Chủ nhật
+                                <br>
+                                <span class="error" id="calender-error"></span>
                             </td>
                         </tr>
 
@@ -77,17 +98,24 @@
                                 Location:
                             </td>
                             <td>
-                                <select name="Location">
+                                <select name="Location" id="location">
+                                    <option value="">---Vui long chon---</option>
                                     <option value="1">Đà Nẵng</option>
                                     <option value="2">Hồ Chí Minh</option>
-                                    <option value="3" selected>Hà Nội </option>
+                                    <option value="3">Hà Nội </option>
                                 </select>
+                                <br>
+                                <span class="error" id="location-error"></span>
                             </td>
                         </tr>
 
                         <tr>
                             <td>Decription: </td>
-                            <td> <textarea name="textarea" id="" cols="30" rows="10"></textarea></td>
+                            <td> <textarea name="textarea" id="content" cols="30" rows="10"></textarea>
+                                <br>
+                                <span class="error" id="decription-error"></span>
+
+                            </td>
                         </tr>
 
                         <tr>
@@ -95,15 +123,18 @@
                                 Remember:
                             </td>
                             <td align="left">
-                                <input type="checkbox" name="remember" value="checked">
+                                <input type="checkbox" name="remember" value="checked" id="remember">
+                                <br>
+                                <span class="error" id="remember-error"></span>
+
                             </td>
                         </tr>
 
                         <tr>
-                            <td "></td>
+                            <td></td>
                             <td align=" left">
-                                <input type="button" name="login" value="Login">
-                                <input type="submit" name="refresh" value="Refresh">
+                                <input type="button" onclick="btnSubmit()" name="login" value="Login" id="submitBtn">
+                                <input type="button" onclick="btnRefresh()" name="Refresh" value="refresh" id="refresh">
                             </td>
                         </tr>
 
@@ -117,6 +148,7 @@
 
 
     </form>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

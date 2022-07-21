@@ -1,0 +1,30 @@
+.content {
+    width: 19.5%;
+    border: 1px solid black;
+    height: 200px;
+    float: left;
+}
+
+body{
+    background-color: aqua;
+}
+
+@media screen and (max-width:960px) {
+    .content {
+        width: 24.5%;
+    }
+
+    body{
+        background-color: beige;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .content {
+        width: 49.5%;
+    }
+
+    body{
+        background-color: blueviolet;
+    }
+}
